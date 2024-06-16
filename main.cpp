@@ -14,6 +14,5 @@ int main(){
 // As of Jun 12 22:02
 // goals:
 // html code commenting with Doxygen
-// generating random requests
-// generating random tasks
 // logging
+// video

@@ -1,0 +1,202 @@
+beginning queue size: 1000
+server: 28 got a request! queue size: 1000
+server: 45 got a request! queue size: 999
+server: 47 got a request! queue size: 998
+server: 41 got a request! queue size: 997
+server: 48 got a request! queue size: 996
+server: 43 got a request! queue size: 995
+server: 50 got a request! queue size: 994
+server: 78 got a request! queue size: 993
+server: 46 got a request! queue size: 992
+server: 80 got a request! queue size: 991
+server: 51 got a request! queue size: 990
+server: 82 got a request! queue size: 989
+server: 49 got a request! queue size: 988
+server: 84 got a request! queue size: 987
+server: 81 got a request! queue size: 986
+server: 52 got a request! queue size: 985
+server: 85 got a request! queue size: 984
+server: 53 got a request! queue size: 983
+server: 87 got a request! queue size: 982
+server: 55 got a request! queue size: 981
+server: 86 got a request! queue size: 980
+server: 54 got a request! queue size: 979
+server: 88 got a request! queue size: 978
+server: 57 got a request! queue size: 977
+server: 92 got a request! queue size: 976
+server: 93 got a request! queue size: 975
+server: 56 got a request! queue size: 974
+server: 95 got a request! queue size: 973
+server: 59 got a request! queue size: 972
+server: 94 got a request! queue size: 971
+server: 67 got a request! queue size: 970
+server: 98 got a request! queue size: 969
+server: 69 got a request! queue size: 968
+server: 15 got a request! queue size: 967
+server: 17 got a request! queue size: 966
+server: 19 got a request! queue size: 965
+server: 32 got a request! queue size: 964
+server: 58 got a request! queue size: 963
+server: 44 got a request! queue size: 962
+server: 60 got a request! queue size: 961
+server: 61 got a request! queue size: 960
+server: 63 got a request! queue size: 959
+server: 65 got a request! queue size: 958
+server: 62 got a request! queue size: 957
+server: 66 got a request! queue size: 956
+server: 64 got a request! queue size: 955
+server: 68 got a request! queue size: 954
+server: 70 got a request! queue size: 953
+server: 74 got a request! queue size: 952
+server: 77 got a request! queue size: 951
+server: 83 got a request! queue size: 950
+server: 79 got a request! queue size: 949
+server: 89 got a request! queue size: 948
+server: 90 got a request! queue size: 947
+server: 99 got a request! queue size: 946
+server: 96 got a request! queue size: 945
+server: 75 got a request! queue size: 944
+server: 76 got a request! queue size: 943
+server: 91 got a request! queue size: 942
+server: 3 got a request! queue size: 941
+server: 2 got a request! queue size: 940
+server: 0 got a request! queue size: 939
+server: 97 got a request! queue size: 938
+server: 5 got a request! queue size: 937
+server: 7 got a request! queue size: 936
+server: 8 got a request! queue size: 935
+server: 11 got a request! queue size: 934
+server: 14 got a request! queue size: 933
+server: 18 got a request! queue size: 932
+server: 71 got a request! queue size: 931
+server: 72 got a request! queue size: 930
+server: 4 got a request! queue size: 929
+server: 73 got a request! queue size: 928
+server: 1 got a request! queue size: 927
+server: 10 got a request! queue size: 926
+server: 12 got a request! queue size: 925
+server: 13 got a request! queue size: 924
+server: 9 got a request! queue size: 923
+server: 23 got a request! queue size: 922
+server: 20 got a request! queue size: 921
+server: 24 got a request! queue size: 920
+server: 16 got a request! queue size: 919
+server: 21 got a request! queue size: 918
+server: 25 got a request! queue size: 917
+server: 27 got a request! queue size: 916
+server: 6 got a request! queue size: 915
+server: 22 got a request! queue size: 914
+server: 29 got a request! queue size: 913
+server: 26 got a request! queue size: 912
+server: 35 got a request! queue size: 911
+server: 36 got a request! queue size: 910
+server: 30 got a request! queue size: 909
+server: 31 got a request! queue size: 908
+server: 34 got a request! queue size: 907
+server: 38 got a request! queue size: 906
+server: 33 got a request! queue size: 905
+server: 37 got a request! queue size: 904
+server: 39 got a request! queue size: 903
+server: 42 got a request! queue size: 902
+server: 40 got a request! queue size: 901
+end queue size: 900
+server: 94 finished a request!
+server: 59 finished a request!
+server: 41 finished a request!
+server: 80 finished a request!
+server: 92 finished a request!
+server: 15 finished a request!
+server: 44 finished a request!
+server: 61 finished a request!
+server: 65 finished a request!
+server: 77 finished a request!
+server: 90 finished a request!
+server: 91 finished a request!
+server: 96 finished a request!
+server: 7 finished a request!
+server: 8 finished a request!
+server: 71 finished a request!
+server: 72 finished a request!
+server: 4 finished a request!
+server: 1 finished a request!
+server: 13 finished a request!
+server: 9 finished a request!
+server: 21 finished a request!
+server: 6 finished a request!
+server: 26 finished a request!
+server: 36 finished a request!
+server: 38 finished a request!
+server: 28 finished a request!
+server: 47 finished a request!
+server: 45 finished a request!
+server: 48 finished a request!
+server: 78 finished a request!
+server: 82 finished a request!
+server: 52 finished a request!
+server: 53 finished a request!
+server: 85 finished a request!
+server: 55 finished a request!
+server: 54 finished a request!
+server: 95 finished a request!
+server: 57 finished a request!
+server: 69 finished a request!
+server: 19 finished a request!
+server: 32 finished a request!
+server: 68 finished a request!
+server: 3 finished a request!
+server: 89 finished a request!
+server: 97 finished a request!
+server: 99 finished a request!
+server: 5 finished a request!
+server: 66 finished a request!
+server: 76 finished a request!
+server: 14 finished a request!
+server: 10 finished a request!
+server: 25 finished a request!
+server: 27 finished a request!
+server: 22 finished a request!
+server: 35 finished a request!
+server: 30 finished a request!
+server: 34 finished a request!
+server: 39 finished a request!
+server: 33 finished a request!
+server: 43 finished a request!
+server: 46 finished a request!
+server: 84 finished a request!
+server: 81 finished a request!
+server: 51 finished a request!
+server: 49 finished a request!
+server: 50 finished a request!
+server: 87 finished a request!
+server: 86 finished a request!
+server: 88 finished a request!
+server: 93 finished a request!
+server: 56 finished a request!
+server: 67 finished a request!
+server: 98 finished a request!
+server: 17 finished a request!
+server: 58 finished a request!
+server: 60 finished a request!
+server: 63 finished a request!
+server: 62 finished a request!
+server: 64 finished a request!
+server: 70 finished a request!
+server: 74 finished a request!
+server: 83 finished a request!
+server: 79 finished a request!
+server: 75 finished a request!
+server: 2 finished a request!
+server: 11 finished a request!
+server: 18 finished a request!
+server: 0 finished a request!
+server: 73 finished a request!
+server: 12 finished a request!
+server: 23 finished a request!
+server: 20 finished a request!
+server: 24 finished a request!
+server: 16 finished a request!
+server: 29 finished a request!
+server: 37 finished a request!
+server: 31 finished a request!
+server: 42 finished a request!
+server: 40 finished a request!
