@@ -1,0 +1,110 @@
+\hypertarget{classloadbalancer}{}\doxysection{loadbalancer Class Reference}
+\label{classloadbalancer}\index{loadbalancer@{loadbalancer}}
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classloadbalancer_a7f4754f4888937607e88a59ab9883a86}{loadbalancer}} (int num\+\_\+cycles, int num\+\_\+servers)
+\begin{DoxyCompactList}\small\item\em Constructor for loadbalancer class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classloadbalancer_a2c4b504681245da4f7b17220976b4795}{add\+Requests\+Thread}} ()
+\begin{DoxyCompactList}\small\item\em Function that runs in a separate thread to add requests to the request queue. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classloadbalancer_a0514e019f3aa11dce009d95108012559}{webserver\+Thread}} (int server\+\_\+id)
+\begin{DoxyCompactList}\small\item\em Function that represents the thread for each web server. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classloadbalancer_a1b75341033633bd8872279aff6768e9b}{run\+Load\+Balancer}} ()
+\begin{DoxyCompactList}\small\item\em Starts the load balancer. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classloadbalancer_a9059155f8dbb1547d921fd4d614c0686}{loop}} ()
+\begin{DoxyCompactList}\small\item\em Main loop of the load balancer. \end{DoxyCompactList}\item 
+\mbox{\hyperlink{structrequest}{request}} \mbox{\hyperlink{classloadbalancer_a6defed3ab048fb7914fbc5c5c061949c}{generate\+Request}} ()
+\begin{DoxyCompactList}\small\item\em Generates a random request. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classloadbalancer_a7f4754f4888937607e88a59ab9883a86}\label{classloadbalancer_a7f4754f4888937607e88a59ab9883a86}} 
+\index{loadbalancer@{loadbalancer}!loadbalancer@{loadbalancer}}
+\index{loadbalancer@{loadbalancer}!loadbalancer@{loadbalancer}}
+\doxysubsubsection{\texorpdfstring{loadbalancer()}{loadbalancer()}}
+{\footnotesize\ttfamily loadbalancer\+::loadbalancer (\begin{DoxyParamCaption}\item[{int}]{num\+\_\+servers,  }\item[{int}]{num\+\_\+cycles }\end{DoxyParamCaption})}
+
+
+
+Constructor for loadbalancer class. 
+
+Initializes the load balancer with the given number of servers and cycles. Prints a hello world message upon initialization.
+
+
+\begin{DoxyParams}{Parameters}
+{\em num\+\_\+servers} & Number of servers in the load balancer. \\
+\hline
+{\em num\+\_\+cycles} & Number of cycles (iterations) the load balancer will run. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classloadbalancer_a2c4b504681245da4f7b17220976b4795}\label{classloadbalancer_a2c4b504681245da4f7b17220976b4795}} 
+\index{loadbalancer@{loadbalancer}!addRequestsThread@{addRequestsThread}}
+\index{addRequestsThread@{addRequestsThread}!loadbalancer@{loadbalancer}}
+\doxysubsubsection{\texorpdfstring{addRequestsThread()}{addRequestsThread()}}
+{\footnotesize\ttfamily void loadbalancer\+::add\+Requests\+Thread (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Function that runs in a separate thread to add requests to the request queue. 
+
+Randomly generates requests and adds them to the request queue. Notifies waiting threads when new requests are added. \mbox{\Hypertarget{classloadbalancer_a6defed3ab048fb7914fbc5c5c061949c}\label{classloadbalancer_a6defed3ab048fb7914fbc5c5c061949c}} 
+\index{loadbalancer@{loadbalancer}!generateRequest@{generateRequest}}
+\index{generateRequest@{generateRequest}!loadbalancer@{loadbalancer}}
+\doxysubsubsection{\texorpdfstring{generateRequest()}{generateRequest()}}
+{\footnotesize\ttfamily \mbox{\hyperlink{structrequest}{request}} loadbalancer\+::generate\+Request (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Generates a random request. 
+
+Randomly generates an IP address for input and output and a random length for a request.
+
+\begin{DoxyReturn}{Returns}
+A randomly generated request. 
+\end{DoxyReturn}
+\mbox{\Hypertarget{classloadbalancer_a9059155f8dbb1547d921fd4d614c0686}\label{classloadbalancer_a9059155f8dbb1547d921fd4d614c0686}} 
+\index{loadbalancer@{loadbalancer}!loop@{loop}}
+\index{loop@{loop}!loadbalancer@{loadbalancer}}
+\doxysubsubsection{\texorpdfstring{loop()}{loop()}}
+{\footnotesize\ttfamily void loadbalancer\+::loop (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Main loop of the load balancer. 
+
+Manages the assignment of tasks to servers based on their availability. Tracks the number of cycles and stops processing when the specified number of cycles is reached. \mbox{\Hypertarget{classloadbalancer_a1b75341033633bd8872279aff6768e9b}\label{classloadbalancer_a1b75341033633bd8872279aff6768e9b}} 
+\index{loadbalancer@{loadbalancer}!runLoadBalancer@{runLoadBalancer}}
+\index{runLoadBalancer@{runLoadBalancer}!loadbalancer@{loadbalancer}}
+\doxysubsubsection{\texorpdfstring{runLoadBalancer()}{runLoadBalancer()}}
+{\footnotesize\ttfamily void loadbalancer\+::run\+Load\+Balancer (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Starts the load balancer. 
+
+Initializes logging, generates initial requests, starts server threads, and manages the main loop of the load balancer. \mbox{\Hypertarget{classloadbalancer_a0514e019f3aa11dce009d95108012559}\label{classloadbalancer_a0514e019f3aa11dce009d95108012559}} 
+\index{loadbalancer@{loadbalancer}!webserverThread@{webserverThread}}
+\index{webserverThread@{webserverThread}!loadbalancer@{loadbalancer}}
+\doxysubsubsection{\texorpdfstring{webserverThread()}{webserverThread()}}
+{\footnotesize\ttfamily void loadbalancer\+::webserver\+Thread (\begin{DoxyParamCaption}\item[{int}]{server\+\_\+id }\end{DoxyParamCaption})}
+
+
+
+Function that represents the thread for each web server. 
+
+Handles requests assigned to a specific server ID. Waits for notifications and processes requests from the request queue.
+
+
+\begin{DoxyParams}{Parameters}
+{\em server\+\_\+id} & ID of the server this thread is managing. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+loadbalancer.\+h\item 
+loadbalancer.\+cpp\end{DoxyCompactItemize}

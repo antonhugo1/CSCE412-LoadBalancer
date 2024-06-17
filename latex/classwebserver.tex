@@ -1,0 +1,69 @@
+\hypertarget{classwebserver}{}\doxysection{webserver Class Reference}
+\label{classwebserver}\index{webserver@{webserver}}
+
+
+The webserver class represents a server that processes incoming requests.  
+
+
+
+
+{\ttfamily \#include $<$webserver.\+h$>$}
+
+\doxysubsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\hyperlink{classwebserver_a228035eb951291e588d1ed826310d6e4}{webserver}} (int id)
+\begin{DoxyCompactList}\small\item\em Constructor for the webserver class. \end{DoxyCompactList}\item 
+void \mbox{\hyperlink{classwebserver_afaf129dae3232a04d211be0a857f3574}{proccess\+\_\+req}} (\mbox{\hyperlink{structrequest}{request}} req)
+\begin{DoxyCompactList}\small\item\em Processes a request received by the web server. \end{DoxyCompactList}\end{DoxyCompactItemize}
+
+
+\doxysubsection{Detailed Description}
+The webserver class represents a server that processes incoming requests. 
+
+Each webserver object handles requests assigned to it by the load balancer. 
+
+\doxysubsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classwebserver_a228035eb951291e588d1ed826310d6e4}\label{classwebserver_a228035eb951291e588d1ed826310d6e4}} 
+\index{webserver@{webserver}!webserver@{webserver}}
+\index{webserver@{webserver}!webserver@{webserver}}
+\doxysubsubsection{\texorpdfstring{webserver()}{webserver()}}
+{\footnotesize\ttfamily webserver\+::webserver (\begin{DoxyParamCaption}\item[{int}]{id }\end{DoxyParamCaption})}
+
+
+
+Constructor for the webserver class. 
+
+Initializes a web server with a specified ID.
+
+
+\begin{DoxyParams}{Parameters}
+{\em id} & ID of the web server. \\
+\hline
+\end{DoxyParams}
+
+
+\doxysubsection{Member Function Documentation}
+\mbox{\Hypertarget{classwebserver_afaf129dae3232a04d211be0a857f3574}\label{classwebserver_afaf129dae3232a04d211be0a857f3574}} 
+\index{webserver@{webserver}!proccess\_req@{proccess\_req}}
+\index{proccess\_req@{proccess\_req}!webserver@{webserver}}
+\doxysubsubsection{\texorpdfstring{proccess\_req()}{proccess\_req()}}
+{\footnotesize\ttfamily void webserver\+::proccess\+\_\+req (\begin{DoxyParamCaption}\item[{\mbox{\hyperlink{structrequest}{request}}}]{req }\end{DoxyParamCaption})}
+
+
+
+Processes a request received by the web server. 
+
+Simulates processing of a request by logging the request details, waiting for a simulated processing time, and then logging completion.
+
+
+\begin{DoxyParams}{Parameters}
+{\em req} & The request to be processed. \\
+\hline
+\end{DoxyParams}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+webserver.\+h\item 
+webserver.\+cpp\end{DoxyCompactItemize}

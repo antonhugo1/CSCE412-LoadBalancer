@@ -42,22 +42,7 @@ struct request {
 class webserver {
 
 public:
-    /**
-     * @brief Constructor for the webserver class.
-     * 
-     * Initializes a web server with a specified ID.
-     * 
-     * @param id ID of the web server.
-     */
     webserver(int id);
-
-    /**
-     * @brief Processes a request received by the web server.
-     * 
-     * Simulates processing of a request by printing a message indicating the request processing.
-     * 
-     * @param req The request to be processed.
-     */
     void proccess_req(request req);
 
 private:

@@ -16,10 +16,3 @@ int main(){
     return 0;
     
 }
-
-
-// As of Jun 12 22:02
-// goals:
-// html code commenting with Doxygen
-// logging
-// video
