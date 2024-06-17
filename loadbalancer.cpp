@@ -146,7 +146,7 @@ void loadbalancer::runLoadBalancer(){
     }
     thread y(&loadbalancer::loop, this);
 
-    thread x(&loadbalancer::addRequestsThread, this);
+    // thread x(&loadbalancer::addRequestsThread, this);
 
     while(true){
     }
